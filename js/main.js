@@ -22,7 +22,7 @@ const getGameList = () => {
         gameListElement.appendChild(gameElement);
         gameElement.classList.add(...list);
         gameElement.innerHTML = `
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div class="card-container h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <img class="h-64 w-full object-cover object-center"
                 src="${game.thumb}" alt="blog">
             <div class="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">

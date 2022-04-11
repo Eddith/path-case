@@ -1,0 +1,74 @@
+body {
+    height: 100vh;
+    background-color: rgb(243 244 246);
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    color: rgb(75 85 99);
+}
+
+.container {
+    width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin: auto;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.text-container h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: rgb(55 65 81);
+    font-family: 'SemiBold';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+}
+
+.game-detail {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    height: 100%;
+    border-width: 2px;
+    border-color: rgb(229 231 235);
+    opacity: 0.6;
+}
+
+@media (min-width: 640px) { 
+
+}
+
+@media (min-width: 768px) { 
+
+    .text-container h1 {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) { 
+
+}
+
+@media (min-width: 1280px) { 
+
+}
+
+@media (min-width: 1536px) { 
+
+}
